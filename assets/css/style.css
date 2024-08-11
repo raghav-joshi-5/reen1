@@ -1,0 +1,205 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+
+.logo{
+	margin-right:75px;
+	padding-top:35px;
+}
+
+.container-fluid{
+	height:40px;
+	background-color:#f5f7f9;
+}
+ul span{
+	margin-left:10px;
+	
+}
+
+ul .mob{
+	margin-left:30px;
+}
+
+
+ul li, span{
+	color:#506a85;
+	font-size:12px;
+}
+
+.navbar{	
+}
+.navbar ul, li{
+	
+ text-align:right;
+ padding-left:16px;
+ padding-top:8px;
+ 
+}
+
+.headertwo{
+	
+	height:112px;
+}
+.navbarOne .searchIcon ul, li{
+	
+	  list-style:none;
+	  display:inline-block;
+	  }
+
+.searchIcon{
+	
+	padding-top:50px;
+	margin-left:80%
+}	 
+
+.navbar a{
+	color:#506a85;
+} 
+
+.navbarOne li a{
+	color:#506a85;
+	font-size:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:50px 10px;
+	margin:0 10px;	
+	position:relative;
+}	  
+
+
+.navbarOne ul li a::after{
+	content:'';
+	color:#506a85;
+	position:absolute;
+	left:0px;
+	padding-top:5px;
+	transition:all 0.5s linear;
+	background-color:#506a85;
+	height:-10px;
+	width:0%;
+	bottom:40px;
+
+
+	
+}
+
+.navbarOne ul li a:hover::after{
+
+	width:100%;
+	color:red;
+	padding-top:5px;
+	
+
+
+
+  
+	
+}
+
+a:hover:active{
+	
+color:blue;
+transform: scale(1.1);
+
+
+	
+}
+
+
+.box{
+	width:125px;
+	height:85px;
+	background-color:#00bb9b;
+}
+
+.headingfour{
+	
+	padding-left:15px;
+	padding-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /* ----------------------------------------------------------------header----------------------------------- */
+
+.herosection{
+	background-color:#506a85;
+	height:875px;
+	margin-bottom:130px;
+}
+
+.para{
+	font-size:24px;
+	Font-weight:regular;
+	color:#a3b1bf;
+	text-align:center;
+	width:950px;
+	margin:0 auto;
+	margin-bottom:70px;
+}
+
+.btnspeakers a{
+	background-color:#00bb9b;
+	color:#fff;
+	width:300px;
+	font-size:18px;
+	Font-weight:bold;
+	padding:25px 0;
+	border-radius:4px;
+	transition: all 0.4s ease-in-out;
+}
+
+.mainsection p{
+	font-size:22px;
+	color:#73879c;
+}
+
+.mb-70{
+	margin-bottom:70px;
+}
+
+.mainsection{
+	height:670px;
+   margin-bottom:-130px;
+}
+
+.greencl img{
+	margin-bottom:80px;
+}
